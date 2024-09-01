@@ -1,0 +1,1 @@
+docker run -t --rm -p 8509:8509 -v E:/plant-disease-final:/plant-disease-final tensorflow/serving --rest_api_port=8509 --model_config_file=/plant-disease-final/models.config
